@@ -87,17 +87,11 @@ export const StyledButton = styled.button`
     background-color: ${p => p.theme.colors.secondary};
     color: ${p => p.theme.colors.accent};
     box-shadow: -2px -2px 5px #fff, 2px 2px 5px #8ba793;
-    svg {
-      fill: ${p => p.theme.colors.accent};
-      stroke: ${p => p.theme.colors.accent};
-    }
+    
     :active {
       color: ${p => p.theme.colors.accent};
       box-shadow: inset 1px 1px 2px #8ba793, inset -1px -1px 2px #fff;
-      svg {
-        fill: ${p => p.theme.colors.accent};
-        stroke: ${p => p.theme.colors.accent};
-      }
+      
     }
   }
 `;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Btn, Item, List } from './ContactList.styled';
 
 export const ContactList = ({ contacts, onDelete }) => {
+  //console.log(contacts);
   return (
     <List>
       {contacts.map(({ name, number, id }) => {
@@ -10,7 +11,9 @@ export const ContactList = ({ contacts, onDelete }) => {
             <span>{name}:</span>
             <span>{number}</span>
 
-            <Btn type="button" onClick={() => onDelete(id)}>Delete</Btn>
+            <Btn type="button" onClick={() => onDelete(id)}>
+              Delete
+            </Btn>
           </Item>
         );
       })}
