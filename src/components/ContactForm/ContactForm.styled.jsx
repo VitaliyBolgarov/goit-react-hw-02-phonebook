@@ -64,10 +64,7 @@ export const StyledButton = styled.button`
   justify-content: center;
   gap: ${p => p.theme.space[2]}px;
 
-  padding-top: ${p => p.theme.space[3]}px;
-  padding-bottom: ${p => p.theme.space[3]}px;
-  padding-left: ${p => p.theme.space[4]}px;
-  padding-right: ${p => p.theme.space[4]}px;
+  padding:4px;
 
   max-width: 100%;
 
